@@ -13,9 +13,13 @@ let pedido = (dateUsuario)=> {
 
 
             displayN.append(`
+                <br>
                 <h2>${tit}</h2>
+                <br>
                 <img src = "${imagem}">
+                <br>
                 <p>${exp}</p>
+                <br>
 
             
             `)
