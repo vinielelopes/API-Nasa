@@ -14,7 +14,7 @@ body{
     border: 1px black solid;
     height: 20px;
 }
-#explicacao {
+p {
     text-align: center;
 }
 img{
@@ -25,7 +25,7 @@ img{
 #displayNasa{
     display: none;
 }
-#titulo{
+h2{
     text-align: center;
 }
 #btn{
