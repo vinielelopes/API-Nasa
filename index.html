@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA</title>
+    <title>APOD NASA</title>
     <link rel="stylesheet" href="./estilo.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script defer src="./comandos.js"></script>
 </head>
 <body>
     <div id="principal">
-        <h1>Escolha a data que você quer ver:</h1>
-        <input id="data" type="date" id="data">
-        <br>
-        <button id="btn">IR</button>
-        <br>
-
-        <div id="displayNasa">
-        </div>
+        <form id="formulario">
+            <h1>FOTO DO DIA DA NASA</h1>
+            <h3>Escolha a data que gostaria de ver:</h3> 
+            <div id="dataEbotao">
+                <input id="data" type="date" id="data">
+                <button id="btn">PESQUISAR</button>
+            </div>
+            <div id="displayNasa">
+            </div>
+        </form>
     </div>
     
 </body>
