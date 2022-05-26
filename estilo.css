@@ -13,6 +13,7 @@
 }
 p {
     text-align: center;
+    font-size: medium;
 }
 img{
     width: 500px;
@@ -57,4 +58,8 @@ body{
         width: 600px;
     }
 
+}
+*{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto Mono', monospace;  
 }
