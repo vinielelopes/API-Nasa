@@ -6,9 +6,6 @@
     padding: 50px;
     background-color: white;
 }
-body{
-    padding: 150px;
-}
 #data{
     width: 110px;
     border: 1px black solid;
@@ -40,10 +37,14 @@ form{
 }
 body{
     background-color: black;
+    padding: 150px;
 }
 @media(max-width:600px){
     img{
         width: 200px;
         height: 200px;
+    }
+    #principal{
+        width: 500px;
     }
 }
